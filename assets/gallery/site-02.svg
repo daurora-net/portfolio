@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#f5f2ed'/>
+      <stop offset='100%' stop-color='#ded2c5'/>
+    </linearGradient>
+  </defs>
+  <rect width='800' height='500' fill='url(#g)'/>
+  <rect x='30' y='32' width='740' height='80' rx='10' fill='#ffffff' stroke='#d8d4ce'/>
+  <rect x='30' y='134' width='740' height='120' rx='10' fill='#ffffff' stroke='#d8d4ce'/>
+  <rect x='30' y='274' width='236' height='190' rx='10' fill='#ffffff' stroke='#d8d4ce'/>
+  <rect x='282' y='274' width='236' height='190' rx='10' fill='#ffffff' stroke='#d8d4ce'/>
+  <rect x='534' y='274' width='236' height='190' rx='10' fill='#ffffff' stroke='#d8d4ce'/>
+  <text x='54' y='82' font-size='20' font-family='Arial, sans-serif' fill='#8a8580'>Landing Page</text>
+</svg>
