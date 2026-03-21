@@ -12,536 +12,538 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <nav>
-      <a class="nav-logo" href=".">
-        <img src="assets/img/display-solid-full.svg" alt="" />
-      </a>
-      <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#works">Works</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="layout">
+      <nav class="sidebar-nav">
+        <a class="nav-logo" href=".">
+          <img src="assets/img/display-solid-full.svg" alt="" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#top">Top</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <section class="hero">
-      <div class="hero-left">
-        <p class="hero-label">Freelance Full-Stack Engineer</p>
-        <h1 class="hero-name">FUJII EMI</h1>
-        <p class="hero-desc">
-          Vue.js / Nuxt.js / Laravel
-          を中心に、業務系Webアプリケーションを開発しています。<br />企業サイト制作から業務システム開発まで、<br />フロントエンドからバックエンドまで一貫して対応します。
-        </p>
-        <a href="#contact" class="hero-cta">お問い合わせ →</a>
-      </div>
-      <div class="hero-right">
-        <div class="hero-stats">
-          <div class="stat">
-            <div class="stat-num">7<span>年</span></div>
-            <div class="stat-label">フリーランス経験</div>
+      <main class="page-content">
+        <section class="hero" id="top">
+          <div class="hero-left">
+            <div class="hero-left_inner">
+              <p class="hero-label">Freelance Full-Stack Engineer</p>
+              <h1 class="hero-name">FUJII EMI</h1>
+              <p class="hero-desc">
+                Vue.js / Nuxt.js / Laravel
+                を中心に、業務系Webアプリケーションを開発しています。<br />企業サイト制作から業務システム開発まで、<br />フロントエンドからバックエンドまで一貫して対応します。
+              </p>
+              <a href="#contact" class="hero-cta">お問い合わせ →</a>
+            </div>
           </div>
-          <div class="stat">
-            <div class="stat-num">10<span>+</span></div>
-            <div class="stat-label">開発案件実績</div>
+          <div class="hero-right">
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-num">7<span>年</span></div>
+                <div class="stat-label">フリーランス経験</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">10<span>+</span></div>
+                <div class="stat-label">開発案件実績</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">5<span>社</span></div>
+                <div class="stat-label">業務系SPA開発</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">8<span>+分野</span></div>
+                <div class="stat-label">業務理解が必要な多様な分野で開発</div>
+              </div>
+            </div>
+            <div class="hero-stack">
+              <span class="tag accent">Vue.js</span
+              ><span class="tag accent">Laravel</span
+              ><span class="tag accent">Nuxt.js</span
+              ><span class="tag">TypeScript</span><span class="tag">MySQL</span
+              ><span class="tag">Firebase</span><span class="tag">AWS</span
+              ><span class="tag">Docker</span><span class="tag">WordPress</span>
+            </div>
           </div>
-          <div class="stat">
-            <div class="stat-num">5<span>社</span></div>
-            <div class="stat-label">業務系SPA開発</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">8<span>+分野</span></div>
-            <div class="stat-label">業務理解が必要な多様な分野で開発</div>
-          </div>
-        </div>
-        <div class="hero-stack">
-          <span class="tag accent">Vue.js</span
-          ><span class="tag accent">Laravel</span
-          ><span class="tag accent">Nuxt.js</span
-          ><span class="tag">TypeScript</span><span class="tag">MySQL</span
-          ><span class="tag">Firebase</span><span class="tag">AWS</span
-          ><span class="tag">Docker</span><span class="tag">WordPress</span>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="services" id="services">
-      <div class="section-header reveal">
-        <span class="section-num">01</span>
-        <h2 class="section-title">Services</h2>
-      </div>
-      <div class="services-grid">
-        <div class="service-card reveal">
-          <div class="service-icon">SVC — 01</div>
-          <h3 class="service-name">LP・サイト制作</h3>
-          <p class="service-desc">
-            デザインカンプの再現実装から、WordPressを用いたCMS構築まで対応します。
-          </p>
-          <ul class="service-items">
-            <li>ランディングページ制作</li>
-            <li>コーポレートサイト</li>
-            <li>WordPress構築・カスタマイズ</li>
-            <li>既存サイトリニューアル</li>
-            <li>表示速度・SEO改善</li>
-          </ul>
-        </div>
-        <div class="service-card reveal">
-          <div class="service-icon">SVC — 02</div>
-          <h3 class="service-name">Webアプリ開発</h3>
-          <p class="service-desc">
-            Vue.js / Nuxt.js と Laravel
-            を用いた業務系Webアプリケーションの設計・開発。API設計、CRUD、管理画面の実装まで対応します。
-          </p>
-          <ul class="service-items">
-            <li>予約・申込フローシステム</li>
-            <li>会員登録・ログイン機能</li>
-            <li>管理画面・ダッシュボード</li>
-            <li>メール通知・自動送信</li>
-            <li>外部API連携</li>
-          </ul>
-        </div>
-        <div class="service-card reveal">
-          <div class="service-icon">SVC — 03</div>
-          <h3 class="service-name">システム・アプリ開発</h3>
-          <p class="service-desc">
-            業務理解が必要な多様な分野のシステム開発を担当。リアルタイム表示や複雑な業務ロジックにも対応します。
-          </p>
-          <ul class="service-items">
-            <li>リアルタイムデータ表示</li>
-            <li>データ集計・レポート機能</li>
-            <li>マッチング・検索ロジック</li>
-            <li>シミュレーション機能</li>
-            <li>グラフ・可視化UI</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <section class="services" id="services">
+          <div class="section-header reveal">
+            <span class="section-num">01</span>
+            <h2 class="section-title">Services</h2>
+          </div>
+          <div class="services-grid">
+            <div class="service-card reveal">
+              <div class="service-icon">SVC — 01</div>
+              <h3 class="service-name">LP・サイト制作</h3>
+              <p class="service-desc">
+                デザインカンプの再現実装から、WordPressを用いたCMS構築まで対応します。
+              </p>
+              <ul class="service-items">
+                <li>ランディングページ制作</li>
+                <li>コーポレートサイト</li>
+                <li>WordPress構築・カスタマイズ</li>
+                <li>既存サイトリニューアル</li>
+                <li>表示速度・SEO改善</li>
+              </ul>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon">SVC — 02</div>
+              <h3 class="service-name">Webアプリ開発</h3>
+              <p class="service-desc">
+                Vue.js / Nuxt.js と Laravel
+                を用いた業務系Webアプリケーションの設計・開発。API設計、CRUD、管理画面の実装まで対応します。
+              </p>
+              <ul class="service-items">
+                <li>予約・申込フローシステム</li>
+                <li>会員登録・ログイン機能</li>
+                <li>管理画面・ダッシュボード</li>
+                <li>メール通知・自動送信</li>
+                <li>外部API連携</li>
+              </ul>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon">SVC — 03</div>
+              <h3 class="service-name">システム・アプリ開発</h3>
+              <p class="service-desc">
+                業務理解が必要な多様な分野のシステム開発を担当。リアルタイム表示や複雑な業務ロジックにも対応します。
+              </p>
+              <ul class="service-items">
+                <li>リアルタイムデータ表示</li>
+                <li>データ集計・レポート機能</li>
+                <li>マッチング・検索ロジック</li>
+                <li>シミュレーション機能</li>
+                <li>グラフ・可視化UI</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-    <section id="works">
-      <div class="section-header reveal">
-        <span class="section-num">02</span>
-        <h2 class="section-title">Works</h2>
-      </div>
-      <div class="works-list">
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2025.02 — 現在</div>
-            <div class="work-company">医療系システム企業</div>
+        <section id="works">
+          <div class="section-header reveal">
+            <span class="section-num">02</span>
+            <h2 class="section-title">Works</h2>
           </div>
-          <div class="work-content">
-            <h3 class="work-title">歯科予約システム</h3>
-            <p class="work-desc">
-              予約フロー設計、マスタ登録、メール通知機能を実装。フロントエンドからバックエンドまで一貫して担当しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Vue.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge">MySQL</span
-              ><span class="work-badge light">フルスタック</span>
+          <div class="works-list">
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2025.02</div>
+                <div class="work-company">医療系システム企業</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">歯科予約システム</h3>
+                <p class="work-desc">
+                  予約フロー設計、マスタ登録、メール通知機能を実装。フロントエンドからバックエンドまで一貫して担当しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Vue.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge">MySQL</span
+                  ><span class="work-badge light">フルスタック</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2025.10 — 現在</div>
-            <div class="work-company">不動産テック企業</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">不動産マッチングサイト</h3>
-            <p class="work-desc">
-              物件検索ロジック、条件マッチング通知、メール送信処理を実装。複雑な検索条件に対応するAPI設計も担当しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Nuxt.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge">MySQL</span
-              ><span class="work-badge light">フルスタック</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2025.10</div>
+                <div class="work-company">不動産テック企業</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">不動産マッチングサイト</h3>
+                <p class="work-desc">
+                  物件検索ロジック、条件マッチング通知、メール送信処理を実装。複雑な検索条件に対応するAPI設計も担当しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Nuxt.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge">MySQL</span
+                  ><span class="work-badge light">フルスタック</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2023.11 — 現在</div>
-            <div class="work-company">システム開発会社</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">医療報酬管理システム</h3>
-            <p class="work-desc">
-              施設基準管理、診療実績集計ロジック、ToDoチェックリスト機能を実装。医療ドメインを踏まえたDB設計にも携わりました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Vue.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge">MySQL</span
-              ><span class="work-badge light">フルスタック</span
-              ><span class="work-badge light">医療ドメイン</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2023.11</div>
+                <div class="work-company">システム開発会社</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">医療報酬管理システム</h3>
+                <p class="work-desc">
+                  施設基準管理、診療実績集計ロジック、ToDoチェックリスト機能を実装。医療ドメインを踏まえたDB設計にも携わりました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Vue.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge">MySQL</span
+                  ><span class="work-badge light">フルスタック</span
+                  ><span class="work-badge light">医療ドメイン</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2023.11 — 現在</div>
-            <div class="work-company">システム開発会社</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">IoT解析システム</h3>
-            <p class="work-desc">
-              センサーデータのリアルタイム表示UI、Firebaseアラート閾値判定、ユーザー管理CRUDを実装しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Vue.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge">Firebase</span
-              ><span class="work-badge light">リアルタイム</span
-              ><span class="work-badge light">フルスタック</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2023.11</div>
+                <div class="work-company">システム開発会社</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">IoT解析システム</h3>
+                <p class="work-desc">
+                  センサーデータのリアルタイム表示UI、Firebaseアラート閾値判定、ユーザー管理CRUDを実装しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Vue.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge">Firebase</span
+                  ><span class="work-badge light">リアルタイム</span
+                  ><span class="work-badge light">フルスタック</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2023.11 — 現在</div>
-            <div class="work-company">システム開発会社</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">気象モニタリングシステム</h3>
-            <p class="work-desc">
-              外部API連携による気象データの定期取得と、Chart.jsを用いたグラフUIを実装。フロントエンドからバックエンドまで担当しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Vue.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge">Chart.js</span
-              ><span class="work-badge light">外部API連携</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2023.11</div>
+                <div class="work-company">システム開発会社</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">気象モニタリングシステム</h3>
+                <p class="work-desc">
+                  外部API連携による気象データの定期取得と、Chart.jsを用いたグラフUIを実装。フロントエンドからバックエンドまで担当しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Vue.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge">Chart.js</span
+                  ><span class="work-badge light">外部API連携</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2023.11 — 現在</div>
-            <div class="work-company">システム開発会社</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">マッチングアプリ</h3>
-            <p class="work-desc">
-              WordPress REST
-              APIのカスタムエンドポイント設計と、Nuxt.jsによるSPA実装を担当。コンポーネント設計と状態管理まで対応しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Nuxt.js</span
-              ><span class="work-badge">WordPress REST API</span
-              ><span class="work-badge light">SPA</span
-              ><span class="work-badge light">フルスタック</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2023.11</div>
+                <div class="work-company">システム開発会社</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">マッチングアプリ</h3>
+                <p class="work-desc">
+                  WordPress REST
+                  APIのカスタムエンドポイント設計と、Nuxt.jsによるSPA実装を担当。コンポーネント設計と状態管理まで対応しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Nuxt.js</span
+                  ><span class="work-badge">WordPress REST API</span
+                  ><span class="work-badge light">SPA</span
+                  ><span class="work-badge light">フルスタック</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">2023.04 — 2023.08</div>
-            <div class="work-company">教育系Webサービス企業</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">LMS開発</h3>
-            <p class="work-desc">
-              API連携、アラート機能、問い合わせフォームを Vue.js / Laravel
-              で構築しました。
-            </p>
-            <div class="work-tags">
-              <span class="work-badge">Vue.js</span
-              ><span class="work-badge">Laravel</span
-              ><span class="work-badge light">LMS</span>
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">2023.04</div>
+                <div class="work-company">教育系Webサービス企業</div>
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">LMS開発</h3>
+                <p class="work-desc">
+                  API連携、アラート機能、問い合わせフォームを Vue.js / Laravel
+                  で構築しました。
+                </p>
+                <div class="work-tags">
+                  <span class="work-badge">Vue.js</span
+                  ><span class="work-badge">Laravel</span
+                  ><span class="work-badge light">LMS</span>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work-arrow">→</div>
-        </div>
-        <div class="work-item reveal">
-          <div class="work-meta">
-            <div class="work-period">SITE WORKS</div>
-            <div class="work-company">制作サイトギャラリー</div>
-          </div>
-          <div class="work-content">
-            <h3 class="work-title">Webサイト制作実績</h3>
-            <p class="work-desc">
+            <div class="work-item reveal">
+              <div class="work-meta">
+                <div class="work-period">SITE WORKS</div>
+                <!-- <div class="work-company">制作サイトギャラリー</div> -->
+              </div>
+              <div class="work-content">
+                <h3 class="work-title">Webサイト制作実績</h3>
+                <!-- <p class="work-desc">
               これまでに制作したサイトの一部を、サムネイルで掲載しています。
-            </p>
-            <div class="site-gallery">
-              <figure class="site-shot">
-                <a
-                  href="https://daurora.net/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/daurora.jpg"
-                    alt="daurora"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://1studyz.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/1studyz.jpg"
-                    alt="1studyz"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://mama-sun.com/jp/legend/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/legend.jpg"
-                    alt="legend"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://mama-sun.com/jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/mac.jpg"
-                    alt="mama sun"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.chiyoda-i.co.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/chiyoda.jpg"
-                    alt="chiyoda"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.2020games.metro.tokyo.lg.jp/taikaijyunbi/torikumi/yusou/2020tdm/approach/index.html"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/2020tdm.jpg"
-                    alt="2020tdm"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://ittiku.net/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/ittiku.jpg"
-                    alt="ittiku"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://kusayamaonsen-nishikisou.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/nishikisou.jpg"
-                    alt="nishikisou"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://ryokan-toyotomi.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/toyotomi.jpg"
-                    alt="toyotomi"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.vbest.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/vbest.jpg"
-                    alt="vbest"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.axa-direct.co.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/axa.jpg"
-                    alt="axa"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.meiji.co.jp/baby/hohoemi/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/meiji.jpg"
-                    alt="meiji"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://horiepharmacy.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/horie.jpg"
-                    alt="horie pharmacy"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.anicom-sompo.co.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/anicom.jpg"
-                    alt="anicom"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
-              <figure class="site-shot">
-                <a
-                  href="https://www.daiyukensetsu.co.jp/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img
-                    src="https://daudev.com/portfolio/assets/images/works/daiyu.jpg"
-                    alt="daiyu"
-                    loading="lazy"
-                  />
-                </a>
-              </figure>
+            </p> -->
+                <div class="site-gallery">
+                  <figure class="site-shot">
+                    <a
+                      href="https://daurora.net/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/daurora.jpg"
+                        alt="daurora"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://1studyz.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/1studyz.jpg"
+                        alt="1studyz"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://mama-sun.com/jp/legend/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/legend.jpg"
+                        alt="legend"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://mama-sun.com/jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/mac.jpg"
+                        alt="mama sun"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.chiyoda-i.co.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/chiyoda.jpg"
+                        alt="chiyoda"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.2020games.metro.tokyo.lg.jp/taikaijyunbi/torikumi/yusou/2020tdm/approach/index.html"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/2020tdm.jpg"
+                        alt="2020tdm"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://ittiku.net/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/ittiku.jpg"
+                        alt="ittiku"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://kusayamaonsen-nishikisou.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/nishikisou.jpg"
+                        alt="nishikisou"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://ryokan-toyotomi.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/toyotomi.jpg"
+                        alt="toyotomi"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.vbest.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/vbest.jpg"
+                        alt="vbest"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.axa-direct.co.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/axa.jpg"
+                        alt="axa"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.meiji.co.jp/baby/hohoemi/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/meiji.jpg"
+                        alt="meiji"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://horiepharmacy.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/horie.jpg"
+                        alt="horie pharmacy"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.anicom-sompo.co.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/anicom.jpg"
+                        alt="anicom"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                  <figure class="site-shot">
+                    <a
+                      href="https://www.daiyukensetsu.co.jp/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <img
+                        src="https://daudev.com/portfolio/assets/images/works/daiyu.jpg"
+                        alt="daiyu"
+                        loading="lazy"
+                      />
+                    </a>
+                  </figure>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="work-arrow">→</div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="skills" id="skills">
-      <div class="section-header reveal">
-        <span class="section-num">03</span>
-        <h2 class="section-title">Skills</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-group reveal">
-          <div class="skill-group-label">Frontend</div>
-          <div class="skill-items">
-            <span class="skill-chip main">Vue.js 2.x / 3.x</span
-            ><span class="skill-chip main">Nuxt.js</span
-            ><span class="skill-chip main">TypeScript</span
-            ><span class="skill-chip">JavaScript</span
-            ><span class="skill-chip">jQuery</span
-            ><span class="skill-chip">Chart.js</span
-            ><span class="skill-chip">HTML / CSS</span>
+        <section class="skills" id="skills">
+          <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Skills</h2>
           </div>
-        </div>
-        <div class="skill-group reveal">
-          <div class="skill-group-label">Backend</div>
-          <div class="skill-items">
-            <span class="skill-chip main">Laravel</span
-            ><span class="skill-chip main">PHP</span
-            ><span class="skill-chip">WordPress REST API</span
-            ><span class="skill-chip">MySQL</span
-            ><span class="skill-chip">PostgreSQL</span>
+          <div class="skills-grid">
+            <div class="skill-group reveal">
+              <div class="skill-group-label">Frontend</div>
+              <div class="skill-items">
+                <span class="skill-chip main">Vue.js 2.x / 3.x</span
+                ><span class="skill-chip main">Nuxt.js</span
+                ><span class="skill-chip main">TypeScript</span
+                ><span class="skill-chip">JavaScript</span
+                ><span class="skill-chip">jQuery</span
+                ><span class="skill-chip">Chart.js</span
+                ><span class="skill-chip">HTML / CSS</span>
+              </div>
+            </div>
+            <div class="skill-group reveal">
+              <div class="skill-group-label">Backend</div>
+              <div class="skill-items">
+                <span class="skill-chip main">Laravel</span
+                ><span class="skill-chip main">PHP</span
+                ><span class="skill-chip">WordPress REST API</span
+                ><span class="skill-chip">MySQL</span
+                ><span class="skill-chip">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="skill-group reveal">
+              <div class="skill-group-label">Infrastructure</div>
+              <div class="skill-items">
+                <span class="skill-chip main">Docker</span
+                ><span class="skill-chip main">Firebase</span
+                ><span class="skill-chip">AWS EC2 / RDS / S3</span
+                ><span class="skill-chip">CircleCI</span
+                ><span class="skill-chip">Git</span
+                ><span class="skill-chip">GitHub</span>
+              </div>
+            </div>
+            <div class="skill-group reveal">
+              <div class="skill-group-label">Design</div>
+              <div class="skill-items">
+                <span class="skill-chip main">Figma</span
+                ><span class="skill-chip">Illustrator</span
+                ><span class="skill-chip">Photoshop</span
+                ><span class="skill-chip">XD</span>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="skill-group reveal">
-          <div class="skill-group-label">Infrastructure</div>
-          <div class="skill-items">
-            <span class="skill-chip main">Docker</span
-            ><span class="skill-chip main">Firebase</span
-            ><span class="skill-chip">AWS EC2 / RDS / S3</span
-            ><span class="skill-chip">CircleCI</span
-            ><span class="skill-chip">Git</span
-            ><span class="skill-chip">GitHub</span>
-          </div>
-        </div>
-        <div class="skill-group reveal">
-          <div class="skill-group-label">Design</div>
-          <div class="skill-items">
-            <span class="skill-chip main">Figma</span
-            ><span class="skill-chip">Illustrator</span
-            ><span class="skill-chip">Photoshop</span
-            ><span class="skill-chip">XD</span>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="contact" id="contact">
-      <p class="contact-pre reveal">Get in touch</p>
-      <h2 class="contact-heading reveal">
-        お気軽に<br /><em>ご相談ください</em>
-      </h2>
-      <p class="contact-sub reveal">
-        Webサイト制作から業務系Webアプリケーション開発まで、<br />目的に合わせて丁寧に対応します。お気軽にご相談ください。
-      </p>
-      <a href="mailto:your@email.com" class="contact-btn reveal"
-        >メールで問い合わせる →</a
-      >
-    </section>
+        <section class="contact" id="contact">
+          <p class="contact-pre reveal">Get in touch</p>
+          <h2 class="contact-heading reveal">
+            お気軽に<br /><em>ご相談ください</em>
+          </h2>
+          <p class="contact-sub reveal">
+            Webサイト制作から業務系Webアプリケーション開発まで、<br />目的に合わせて丁寧に対応します。お気軽にご相談ください。
+          </p>
+          <a href="mailto:daurora.net@gmail.com" class="contact-btn reveal"
+            >メールで問い合わせる →</a
+          >
+        </section>
 
-    <footer>
-      <span class="footer-copy">© 2026 Emi — Freelance Fullstack Engineer</span>
-      <span class="footer-copy">Vue.js / Laravel / Fullstack</span>
-    </footer>
+        <footer>
+          <span class="footer-copy"
+            ><span id="current-year"></span> Fujii Emi — Freelance Fullstack
+            Engineer</span
+          >
+          <!-- <span class="footer-copy">Vue.js / Laravel / Fullstack</span> -->
+        </footer>
+      </main>
+    </div>
 
     <script>
-      const observer = new IntersectionObserver(
+      const revealObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((e, i) => {
             if (e.isIntersecting)
@@ -552,7 +554,66 @@
       );
       document
         .querySelectorAll(".reveal")
-        .forEach((el) => observer.observe(el));
+        .forEach((el) => revealObserver.observe(el));
+
+      const navLinks = [...document.querySelectorAll(".nav-links a")];
+      const sectionTargets = navLinks
+        .map((link) => {
+          const selector = link.getAttribute("href");
+          const target = selector ? document.querySelector(selector) : null;
+          return target ? { link, section: target } : null;
+        })
+        .filter(Boolean);
+
+      const setActiveLink = (id) => {
+        navLinks.forEach((link) => {
+          link.classList.toggle(
+            "is-active",
+            link.getAttribute("href") === `#${id}`,
+          );
+        });
+      };
+
+      const updateActiveByScroll = () => {
+        if (sectionTargets.length === 0) return;
+
+        const scrollPoint = window.scrollY + window.innerHeight * 0.35;
+        let current = sectionTargets[0].section.id;
+
+        sectionTargets.forEach(({ section }) => {
+          if (section.offsetTop <= scrollPoint) {
+            current = section.id;
+          }
+        });
+
+        const nearBottom =
+          window.innerHeight + window.scrollY >= document.body.scrollHeight - 4;
+        if (nearBottom) {
+          current = sectionTargets[sectionTargets.length - 1].section.id;
+        }
+
+        setActiveLink(current);
+      };
+
+      let ticking = false;
+      const requestUpdate = () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          updateActiveByScroll();
+          ticking = false;
+        });
+      };
+
+      window.addEventListener("scroll", requestUpdate, { passive: true });
+      window.addEventListener("resize", requestUpdate);
+      window.addEventListener("hashchange", requestUpdate);
+      requestUpdate();
+
+      const currentYear = document.getElementById("current-year");
+      if (currentYear) {
+        currentYear.textContent = new Date().getFullYear();
+      }
     </script>
   </body>
 </html>
