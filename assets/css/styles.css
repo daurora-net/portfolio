@@ -430,6 +430,8 @@
         background: white;
         overflow: hidden;
         box-shadow: 7px 7px 15px 0px #0000003b;
+        max-height: 230px;
+        border-radius: 10px;
       }
 
       .site-shot img {
