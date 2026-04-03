@@ -421,7 +421,7 @@
       .site-gallery {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 0.8rem;
+        gap: 1.5rem;
         margin-top: 1.2rem;
       }
 
@@ -429,6 +429,7 @@
         border: 1px solid var(--line);
         background: white;
         overflow: hidden;
+        box-shadow: 7px 7px 15px 0px #0000003b;
       }
 
       .site-shot img {
